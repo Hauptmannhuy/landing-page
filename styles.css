@@ -1,10 +1,170 @@
 body {
     height: 100vh;
-
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 56px;
+    gap: 40px;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight:bold;
+    color: #F9FAF8;
+}
+
+.main-bottom-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.container-right {
+    display: flex;
+    flex: 1;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px 85px 50px;
+    
+}
+.information-header {
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+    padding: 24px;
+}
+
+.squares-container {
+    display: flex;
+}
+
+.square-placeholder {
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-color: #3882F6;
+    border-style: solid;
+
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+   
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.call-container {
+    display: flex;
+    background-color: #3882F6;
+    padding:30px 80px 30px 80px;
+    align-items: center;
+    gap: 100px;
+}
+
+#callbutton {
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 50px 30px 50px;
+    text-align: center;
+}
+
+
+
+button {
+    background-color: #3882F6;
+    padding:5px 12px;
+    border: none;
+    
+}
+
+.image-placeholder{
+
+background-color: grey;
+padding: 80px;    
+}
+
+
+
 
